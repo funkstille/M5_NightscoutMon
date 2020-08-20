@@ -66,6 +66,9 @@ struct NSinfo {
   float cob = 0;
   char cob_display[16];
   char cob_displayLine[16];
+  float bwp = 0;
+  char bwp_display[16];
+  char bwp_displayLine[16];  
   int delta_absolute = 0;
   float delta_elapsedMins = 0;
   bool delta_interpolated = 0;
